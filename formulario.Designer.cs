@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formulario));
+=======
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             NameFormulario = new Label();
             FLname = new Label();
             SLname = new Label();
@@ -44,45 +47,73 @@
             // NameFormulario
             // 
             NameFormulario.AutoSize = true;
+<<<<<<< HEAD
             NameFormulario.BackColor = Color.Transparent;
             NameFormulario.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             NameFormulario.ForeColor = Color.Black;
             NameFormulario.Location = new Point(25, 34);
             NameFormulario.Name = "NameFormulario";
             NameFormulario.Size = new Size(62, 23);
+=======
+            NameFormulario.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            NameFormulario.Location = new Point(25, 34);
+            NameFormulario.Name = "NameFormulario";
+            NameFormulario.Size = new Size(60, 23);
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             NameFormulario.TabIndex = 0;
             NameFormulario.Text = "Name :";
             // 
             // FLname
             // 
             FLname.AutoSize = true;
+<<<<<<< HEAD
             FLname.BackColor = Color.Transparent;
             FLname.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             FLname.Location = new Point(25, 99);
             FLname.Name = "FLname";
             FLname.Size = new Size(137, 23);
+=======
+            FLname.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FLname.Location = new Point(25, 99);
+            FLname.Name = "FLname";
+            FLname.Size = new Size(126, 23);
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             FLname.TabIndex = 1;
             FLname.Text = "First Last Name :";
             // 
             // SLname
             // 
             SLname.AutoSize = true;
+<<<<<<< HEAD
             SLname.BackColor = Color.Transparent;
             SLname.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             SLname.Location = new Point(25, 165);
             SLname.Name = "SLname";
             SLname.Size = new Size(157, 23);
+=======
+            SLname.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SLname.Location = new Point(25, 165);
+            SLname.Name = "SLname";
+            SLname.Size = new Size(147, 23);
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             SLname.TabIndex = 2;
             SLname.Text = "Second Last Name:";
             // 
             // provincia
             // 
             provincia.AutoSize = true;
+<<<<<<< HEAD
             provincia.BackColor = Color.Transparent;
             provincia.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             provincia.Location = new Point(25, 220);
             provincia.Name = "provincia";
             provincia.Size = new Size(90, 23);
+=======
+            provincia.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            provincia.Location = new Point(25, 220);
+            provincia.Name = "provincia";
+            provincia.Size = new Size(81, 23);
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             provincia.TabIndex = 3;
             provincia.Text = "Provincia :";
             // 
@@ -148,8 +179,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             BackgroundImage = Properties.Resources.background2;
             BackgroundImageLayout = ImageLayout.Stretch;
+=======
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             ClientSize = new Size(393, 367);
             Controls.Add(savebtn);
             Controls.Add(addbtn);
@@ -161,8 +195,11 @@
             Controls.Add(SLname);
             Controls.Add(FLname);
             Controls.Add(NameFormulario);
+<<<<<<< HEAD
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
+=======
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
             Name = "formulario";
             Text = "formulario";
             Load += formulario_Load;

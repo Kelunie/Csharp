@@ -28,7 +28,10 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
+<<<<<<< HEAD
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+=======
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
         Formulariobtn = new Button();
         Consultabtn = new Button();
         SuspendLayout();
@@ -57,6 +60,7 @@ partial class Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
         BackgroundImage = Properties.Resources.background1;
         BackgroundImageLayout = ImageLayout.Stretch;
         ClientSize = new Size(269, 232);
@@ -66,6 +70,13 @@ partial class Form1
         Name = "Form1";
         Text = "Windows Form con C#";
         Load += Form1_Load;
+=======
+        ClientSize = new Size(269, 232);
+        Controls.Add(Consultabtn);
+        Controls.Add(Formulariobtn);
+        Name = "Form1";
+        Text = "Windows Form con C#";
+>>>>>>> ea200156653cf5bc768ba6ce511ed86e905855e9
         ResumeLayout(false);
     }
 
